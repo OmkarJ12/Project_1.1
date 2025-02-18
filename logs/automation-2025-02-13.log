@@ -1,0 +1,47 @@
+16:20:13.834 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:20:13.841 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:20:13.841 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:20:13.858 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:20:13.859 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:20:13.859 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:20:13.878 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:20:13.879 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:20:13.880 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:20:13.903 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:20:13.904 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:20:13.905 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:20:13.920 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:20:13.920 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:20:13.921 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:20:13.936 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:20:13.937 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:20:13.938 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:20:13.970 [main] INFO  testCases.TC003_LoginDDT - -- TC003_LoginDDT Starting --
+16:20:15.781 [main] INFO  testCases.TC003_LoginDDT - -- TC003_LoginDDT Ending --
+16:20:15.799 [main] INFO  testCases.TC003_LoginDDT - -- TC003_LoginDDT Starting --
+16:20:16.951 [main] INFO  testCases.TC003_LoginDDT - -- TC003_LoginDDT Ending --
+16:20:16.953 [main] INFO  testCases.TC003_LoginDDT - -- TC003_LoginDDT Starting --
+16:20:18.310 [main] INFO  testCases.TC003_LoginDDT - -- TC003_LoginDDT Starting --
+16:20:24.023 [main] INFO  testCases.TC003_LoginDDT - -- TC003_LoginDDT Ending --
+16:20:24.035 [main] INFO  testCases.TC003_LoginDDT - -- TC003_LoginDDT Starting --
+16:20:29.674 [main] INFO  testCases.TC003_LoginDDT - -- TC003_LoginDDT Ending --
+16:21:30.354 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\omkar\Desktop\omkar_study\Testing\Automation\Automation projects\Project_1.1\master.xml"
+16:21:30.614 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\omkar\Desktop\omkar_study\Testing\Automation\Automation projects\Project_1.1\master.xml
+
+16:21:37.129 [main] INFO  testCases.TC001_AccountRegistrationTest - -- Starting TC001_AccountRegistrationTest --
+16:21:37.266 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on myaccount link..
+16:21:37.873 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on register link..
+16:21:38.366 [main] INFO  testCases.TC001_AccountRegistrationTest - Customer details entered..
+16:21:38.420 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected msg..
+16:21:38.936 [main] INFO  testCases.TC001_AccountRegistrationTest - -- Finished TC001_AccountRegistrationTest --
+16:21:45.985 [main] INFO  testCases.TC002_LoginTest - -- Starting TC001_LoginTest --
+16:21:46.484 [main] INFO  testCases.TC002_LoginTest - clicked on loging link...
+16:21:46.868 [main] INFO  testCases.TC002_LoginTest - Customer details entered..
+16:23:42.091 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\omkar\Desktop\omkar_study\Testing\Automation\Automation projects\Project_1.1\master.xml"
+16:23:42.361 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\omkar\Desktop\omkar_study\Testing\Automation\Automation projects\Project_1.1\master.xml
+
+16:23:49.331 [main] INFO  testCases.TC001_AccountRegistrationTest - -- Starting TC001_AccountRegistrationTest --
+16:23:49.519 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on myaccount link..
+16:23:49.982 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on register link..

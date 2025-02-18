@@ -1,0 +1,55 @@
+16:23:50.465 [main] INFO  testCases.TC001_AccountRegistrationTest - Customer details entered..
+16:23:50.522 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected msg..
+16:23:50.982 [main] INFO  testCases.TC001_AccountRegistrationTest - -- Finished TC001_AccountRegistrationTest --
+16:23:57.706 [main] INFO  testCases.TC002_LoginTest - -- Starting TC001_LoginTest --
+16:23:58.301 [main] INFO  testCases.TC002_LoginTest - clicked on loging link...
+16:23:58.644 [main] INFO  testCases.TC002_LoginTest - Customer details entered..
+17:24:57.610 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\omkar\Desktop\omkar_study\Testing\Automation\Automation projects\Project_1.1\docker-grid.xml"
+17:24:57.957 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\omkar\Desktop\omkar_study\Testing\Automation\Automation projects\Project_1.1\docker-grid.xml
+
+17:25:08.343 [main] INFO  testCases.TC001_AccountRegistrationTest - -- Starting TC001_AccountRegistrationTest --
+23:13:06.244 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\omkar\Desktop\omkar_study\Testing\Automation\Automation projects\Project_1.1\master.xml"
+23:13:06.576 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\omkar\Desktop\omkar_study\Testing\Automation\Automation projects\Project_1.1\master.xml
+
+23:17:08.056 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\omkar\Desktop\omkar_study\Testing\Automation\Automation projects\Project_1.1\master.xml"
+23:17:08.365 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\omkar\Desktop\omkar_study\Testing\Automation\Automation projects\Project_1.1\master.xml
+
+23:17:13.896 [main] INFO  testCases.TC001_AccountRegistrationTest - -- Starting TC001_AccountRegistrationTest --
+23:17:14.014 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on myaccount link..
+23:17:14.803 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on register link..
+23:17:15.380 [main] INFO  testCases.TC001_AccountRegistrationTest - Customer details entered..
+23:17:15.447 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected msg..
+23:17:16.112 [main] INFO  testCases.TC001_AccountRegistrationTest - -- Finished TC001_AccountRegistrationTest --
+23:17:22.770 [main] INFO  testCases.TC002_LoginTest - -- Starting TC001_LoginTest --
+23:17:23.477 [main] INFO  testCases.TC002_LoginTest - clicked on loging link...
+23:17:23.846 [main] INFO  testCases.TC002_LoginTest - Customer details entered..
+23:27:20.745 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\omkar\Desktop\omkar_study\Testing\Automation\Automation projects\Project_1.1\master.xml"
+23:27:21.046 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\omkar\Desktop\omkar_study\Testing\Automation\Automation projects\Project_1.1\master.xml
+
+23:27:28.023 [main] INFO  testCases.TC001_AccountRegistrationTest - -- Starting TC001_AccountRegistrationTest --
+23:27:28.184 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on myaccount link..
+23:27:28.749 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on register link..
+23:27:29.277 [main] INFO  testCases.TC001_AccountRegistrationTest - Customer details entered..
+23:27:29.351 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected msg..
+23:27:29.849 [main] INFO  testCases.TC001_AccountRegistrationTest - -- Finished TC001_AccountRegistrationTest --
+23:27:37.321 [main] INFO  testCases.TC002_LoginTest - -- Starting TC001_LoginTest --
+23:27:38.015 [main] INFO  testCases.TC002_LoginTest - clicked on loging link...
+23:27:38.391 [main] INFO  testCases.TC002_LoginTest - Customer details entered..
+23:35:48.159 [main] INFO  testCases.TC001_AccountRegistrationTest - -- Starting TC001_AccountRegistrationTest --
+23:35:48.326 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on myaccount link..
+23:35:48.917 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on register link..
+23:35:49.556 [main] INFO  testCases.TC001_AccountRegistrationTest - Customer details entered..
+23:35:49.630 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected msg..
+23:35:50.043 [main] INFO  testCases.TC001_AccountRegistrationTest - -- Finished TC001_AccountRegistrationTest --
+23:35:57.464 [main] INFO  testCases.TC002_LoginTest - -- Starting TC001_LoginTest --
+23:35:58.136 [main] INFO  testCases.TC002_LoginTest - clicked on loging link...
+23:35:58.582 [main] INFO  testCases.TC002_LoginTest - Customer details entered..
+00:13:07.646 [main] INFO  testCases.TC001_AccountRegistrationTest - -- Starting TC001_AccountRegistrationTest --
+00:13:07.799 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on myaccount link..
+00:13:08.636 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on register link..
+00:13:09.389 [main] INFO  testCases.TC001_AccountRegistrationTest - Customer details entered..
+00:13:09.475 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected msg..
