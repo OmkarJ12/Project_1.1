@@ -1,13 +1,179 @@
-00:13:10.269 [main] INFO  testCases.TC001_AccountRegistrationTest - -- Finished TC001_AccountRegistrationTest --
-00:13:17.799 [main] INFO  testCases.TC002_LoginTest - -- Starting TC001_LoginTest --
-00:13:18.674 [main] INFO  testCases.TC002_LoginTest - clicked on loging link...
-00:13:19.061 [main] INFO  testCases.TC002_LoginTest - Customer details entered..
-00:21:07.969 [main] INFO  testCases.TC001_AccountRegistrationTest - -- Starting TC001_AccountRegistrationTest --
-00:21:08.200 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on myaccount link..
-00:21:08.856 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on register link..
-00:21:09.676 [main] INFO  testCases.TC001_AccountRegistrationTest - Customer details entered..
-00:21:09.744 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected msg..
-00:21:10.333 [main] INFO  testCases.TC001_AccountRegistrationTest - -- Finished TC001_AccountRegistrationTest --
-00:21:18.480 [main] INFO  testCases.TC002_LoginTest - -- Starting TC001_LoginTest --
-00:21:19.339 [main] INFO  testCases.TC002_LoginTest - clicked on loging link...
-00:21:19.747 [main] INFO  testCases.TC002_LoginTest - Customer details entered..
+13:34:33.267 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@3ebc955b: 49 ms
+13:34:33.283 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@60dc1a4e: 9 ms
+13:34:33.290 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@61037caf: 6 ms
+13:34:33.297 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@1129829c: 7 ms
+13:34:33.302 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2d28fb02: 5 ms
+13:34:33.303 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@6db328f8: 0 ms
+13:35:28.250 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\omkar\AppData\Local\Temp\testng-eclipse-1925992448\testng-customsuite.xml"
+13:35:28.535 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:35:28.541 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 4 ms.
+13:35:28.543 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:35:28.543 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:35:28.544 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:35:28.544 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:35:28.546 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:35:28.546 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:35:28.554 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+13:35:28.562 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+13:35:28.563 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:35:28.564 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+13:35:28.564 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:35:28.565 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:35:28.565 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:35:28.565 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:35:28.568 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:35:28.568 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:35:28.568 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:35:28.568 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:35:28.571 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:35:28.571 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:35:28.571 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:35:28.571 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:35:28.572 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:35:28.573 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:35:28.574 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:35:28.574 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:35:28.574 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:35:28.574 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:35:28.581 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\omkar\AppData\Local\Temp\testng-eclipse-1925992448\testng-customsuite.xml
+
+13:35:28.597 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+13:35:30.633 [main] INFO  testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields - ==> Starting TC_RF_003_RegisterWithAllFields <==
+13:35:31.123 [main] INFO  testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields - Entering details in registration form...
+13:35:32.736 [main] ERROR testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields - Test execution failed due to an exception: element click intercepted: Element is not clickable at point (293, 799)
+  (Session info: MicrosoftEdge=133.0.3065.69)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [08cf7e65da0c4a759f32b5109118d9df, clickElement {id=f.C94690AD0D27F84D549C9EAB22F07044.d.F689D8EAFA475C26DBCFAA9E203916BB.e.79}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.69, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52384}, msedge: {msedgedriverVersion: 133.0.3065.82 (e8aeaf3e0117..., userDataDir: C:\Users\omkar\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52384/devtoo..., se:cdpVersion: 133.0.3065.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (08cf7e65da0c4a759f32b5109118d9df)] -> id: input-newsletter]
+Session ID: 08cf7e65da0c4a759f32b5109118d9df
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (293, 799)
+  (Session info: MicrosoftEdge=133.0.3065.69)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [08cf7e65da0c4a759f32b5109118d9df, clickElement {id=f.C94690AD0D27F84D549C9EAB22F07044.d.F689D8EAFA475C26DBCFAA9E203916BB.e.79}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.69, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52384}, msedge: {msedgedriverVersion: 133.0.3065.82 (e8aeaf3e0117..., userDataDir: C:\Users\omkar\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52384/devtoo..., se:cdpVersion: 133.0.3065.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (08cf7e65da0c4a759f32b5109118d9df)] -> id: input-newsletter]
+Session ID: 08cf7e65da0c4a759f32b5109118d9df
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.25.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.25.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source) ~[?:?]
+	at pageObjects.AccountRegisterPage.agreeForNewsLetter(AccountRegisterPage.java:75) ~[test-classes/:?]
+	at pageObjects.AccountRegisterPage.accountRegisterFullProcess(AccountRegisterPage.java:85) ~[test-classes/:?]
+	at testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields.registerWithAllFields(TC_RF_003_RegisterWithAllFields.java:26) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+13:35:34.126 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@3ebc955b: 50 ms
+13:35:34.136 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@72557746: 10 ms
+13:35:34.143 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@7d9c45ee: 7 ms
+13:35:34.148 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@7ca492d9: 5 ms
+13:35:34.153 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6aa5974e: 5 ms
+13:35:34.153 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@5e5ddfbc: 0 ms
+13:38:27.167 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\omkar\AppData\Local\Temp\testng-eclipse-1141918517\testng-customsuite.xml"
+13:38:27.441 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+13:38:27.445 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+13:38:27.447 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:38:27.448 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:38:27.448 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:38:27.448 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:38:27.449 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:38:27.449 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:38:27.455 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+13:38:27.464 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+13:38:27.466 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:38:27.466 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:38:27.467 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:38:27.467 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:38:27.468 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:38:27.468 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:38:27.470 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:38:27.470 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:38:27.470 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:38:27.470 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:38:27.472 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:38:27.472 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:38:27.473 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:38:27.473 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:38:27.473 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:38:27.474 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:38:27.475 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:38:27.475 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:38:27.475 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+13:38:27.475 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+13:38:27.481 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\omkar\AppData\Local\Temp\testng-eclipse-1141918517\testng-customsuite.xml
+
+13:38:27.496 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
+13:38:29.527 [main] INFO  testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields - ==> Starting TC_RF_003_RegisterWithAllFields <==
+13:38:29.946 [main] INFO  testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields - Entering details in registration form...
+13:38:31.001 [main] DEBUG testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields - Fetched success message: Your Account Has Been Created!
+13:38:31.256 [main] INFO  testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields - Account details submitted...
+13:38:31.256 [main] INFO  testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields - On account success page...
+13:38:31.285 [main] INFO  testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields - Account successfully registered and My Account page verified.
+13:38:31.285 [main] INFO  testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields - ==> Finished execution of TC_RF_003_RegisterWithAllFields <==
+13:38:32.086 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@5a090f62: 44 ms
+13:38:32.087 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@559af296: 0 ms
+13:38:32.091 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@47df5041: 4 ms
+13:38:32.095 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@50211483: 3 ms
+13:38:32.100 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@7436364d: 5 ms
+13:38:32.100 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@1a8e9ed9: 0 ms
+13:39:52.779 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\omkar\Desktop\omkar_study\Testing\Automation\Automation projects\Project_1.1\master.xml"
+13:39:53.074 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\omkar\Desktop\omkar_study\Testing\Automation\Automation projects\Project_1.1\master.xml
+
+13:39:55.450 [main] INFO  testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields - ==> Starting TC_RF_003_RegisterWithAllFields <==
+13:39:55.906 [main] INFO  testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields - Entering details in registration form...
+13:39:56.829 [main] DEBUG testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields - Fetched success message: Your Account Has Been Created!
+13:39:57.130 [main] INFO  testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields - Account details submitted...
+13:39:57.130 [main] INFO  testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields - On account success page...
+13:39:57.160 [main] INFO  testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields - Account successfully registered and My Account page verified.
+13:39:57.160 [main] INFO  testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields - ==> Finished execution of TC_RF_003_RegisterWithAllFields <==
+13:41:14.460 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\omkar\Desktop\omkar_study\Testing\Automation\Automation projects\Project_1.1\master.xml"
+13:41:16.935 [main] INFO  testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields - ==> Starting TC_RF_003_RegisterWithAllFields <==
+13:41:17.448 [main] INFO  testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields - Entering details in registration form...
+13:41:18.544 [main] DEBUG testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields - Fetched success message: Your Account Has Been Created!
+13:41:18.778 [main] INFO  testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields - Account details submitted...
+13:41:18.778 [main] INFO  testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields - On account success page...
+13:41:18.809 [main] INFO  testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields - Account successfully registered and My Account page verified.
+13:41:18.809 [main] INFO  testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields - ==> Finished execution of TC_RF_003_RegisterWithAllFields <==

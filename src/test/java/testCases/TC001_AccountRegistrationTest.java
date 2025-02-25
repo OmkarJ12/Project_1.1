@@ -14,7 +14,7 @@ public class TC001_AccountRegistrationTest extends BaseTestClass {
 	public void verifyAccountRegistration() {
 		
 		logger.info("-- Starting TC001_AccountRegistrationTest --");
-
+		logger.info("==> Total driver instances at START: <=="+getDriverInstanceCount());
 		try {
 		HomePage hp = new HomePage(driver);
 		hp.clickMyAccount();
@@ -26,7 +26,7 @@ public class TC001_AccountRegistrationTest extends BaseTestClass {
 		AccountRegisterPage regPage = new AccountRegisterPage(driver);
 		
 		regPage.enterFirstNameInput(randomeStringFirstName().toUpperCase());
-		regPage.enterLastNameInput(randomeStringlastName().toUpperCase());
+		regPage.enterLastNameInput(randomeStringLastName().toUpperCase());
 		regPage.enterEmailInput(emailGenerator());
 		regPage.enterPwdInput(randomePassword());
 		logger.info("Customer details entered..");
@@ -49,6 +49,8 @@ public class TC001_AccountRegistrationTest extends BaseTestClass {
 		}catch(Exception e) {
 			Assert.fail();		
 		}
+		
+		logger.info("==> Total driver instances at END: <=="+getDriverInstanceCount());
 		logger.info("-- Finished TC001_AccountRegistrationTest --");
 	}
 }

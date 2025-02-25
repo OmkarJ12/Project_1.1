@@ -5,10 +5,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class AccountSuccessPage extends BasePage {
-
+	
+	WebDriver driveASP;
+	
 	//constructor
 	public AccountSuccessPage(WebDriver driver) {
 		super(driver);
+		driveASP = driver;
 	}
 
 	//locators
@@ -28,7 +31,8 @@ public class AccountSuccessPage extends BasePage {
 		}
 	}
 	
-	public void clickContinueBtn() {
+	public MyAccountPage clickContinueBtn() {
 		continueBtn.click();
+		return new MyAccountPage(driveASP);
 	}
 }

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC001_AccountRegistrationTest">
+      <class name="testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields">
         <methods>
-          <include name="verifyAccountRegistration"/>
+          <include name="registerWithAllFields"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
+      </class> <!-- testCases.registerFunctionality.TC_RF_003_RegisterWithAllFields -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

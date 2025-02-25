@@ -18,6 +18,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Optional;
@@ -32,6 +33,7 @@ import org.apache.logging.log4j.Logger;
 public class BaseTestClass {
 
 	public static WebDriver driver;
+	private static int driverInstanceCount = 0;
 	public Logger logger;                        //log4j
 	public Properties prop;
 	
@@ -42,57 +44,67 @@ public class BaseTestClass {
 	public void setUp(@Optional("Windows")String os, @Optional("edge")String br) throws IOException {
 	
 		//loading config.properties file
+		try {
 		FileReader file =  new FileReader("./src//test//resources//config.properties");
 		prop = new Properties();
 		prop.load(file);
-		
-		//for remote execution(selenium grid)
-		if(prop.getProperty("execution_env").equalsIgnoreCase("remote")) {
-			DesiredCapabilities cap = new DesiredCapabilities();
-			
-			//for os 
-			if(os.equalsIgnoreCase("Windows")) {
-				cap.setPlatform(Platform.WIN11);
-			}
-			else if(os.equalsIgnoreCase("mac")){
-				cap.setPlatform(Platform.MAC);
-			}
-			else if(os.equalsIgnoreCase("linux")){
-				cap.setPlatform(Platform.LINUX);
-			}
-			else {
-				System.out.println("no matching os..");
-				return;
-			}
-			
-			//for browser
-			switch (br) {
-			case "chrome" : cap.setBrowserName("chrome");break;
-			case "edge" : cap.setBrowserName("MicrosoftEdge");break;
-			case "firefox" : cap.setBrowserName("firefox");break;
-			default : System.out.println("no matching browser..");return;
-			}
-			
-			//creating driver
-			driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),cap);
+		}catch(IOException e) {
+			System.out.println("Failed to load config.properties file.."+e.getMessage());
 		}
 		
-		//for local execution
-		if(prop.getProperty("execution_env").equalsIgnoreCase("local")) {
-			//crossbrowser setup code
-			switch(br.toLowerCase()) {
-			case "chrome" : driver = new ChromeDriver(); break;
-			case "edge" : driver = new EdgeDriver(); break;
-			case "firefox" : driver = new FirefoxDriver(); break;
-			default : System.out.println("Invalid browser name..");return;
-			}
-		}
+		//for keeping check on driver instance creation for better optimization
+		if(driver==null) {                           //ensure driver is not recreated
 		
+			//for remote execution(selenium grid)
+			if(prop.getProperty("execution_env").equalsIgnoreCase("remote")) {
+				DesiredCapabilities cap = new DesiredCapabilities();
+				
+				//for os 
+				if(os.equalsIgnoreCase("Windows")) {
+					cap.setPlatform(Platform.WIN11);
+				}
+				else if(os.equalsIgnoreCase("mac")){
+					cap.setPlatform(Platform.MAC);
+				}
+				else if(os.equalsIgnoreCase("linux")){
+					cap.setPlatform(Platform.LINUX);
+				}
+				else {
+					System.out.println("no matching os..");
+					return;
+				}
+				
+				//for browser
+				switch (br) {
+				case "chrome" : cap.setBrowserName("chrome");break;
+				case "edge" : cap.setBrowserName("MicrosoftEdge");break;
+				case "firefox" : cap.setBrowserName("firefox");break;
+				default : System.out.println("no matching browser..");return;
+				}
+				
+				//creating driver
+				driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),cap);
+			}
+			
+			//for local execution
+			if(prop.getProperty("execution_env").equalsIgnoreCase("local")) {
+				//crossbrowser setup code
+				switch(br.toLowerCase()) {
+				case "chrome" : driver = new ChromeDriver(); break;
+				case "edge" : driver = new EdgeDriver(); break;
+				case "firefox" : driver = new FirefoxDriver(); break;
+				default : System.out.println("Invalid browser name..");return;
+				}
+			}
+			 driverInstanceCount++; // Increment instance count
+           System.out.println("WebDriver instance created. Total Instances: " + driverInstanceCount);
+		}
+			
 		//logger code for logging error etc
 		logger =  LogManager.getLogger(this.getClass());  //log4j2
 		
 		//creating driver instance
-		driver = new EdgeDriver();
+//		driver = new EdgeDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
@@ -100,6 +112,10 @@ public class BaseTestClass {
 		driver.get(prop.getProperty("appURL1"));
 		driver.manage().window().maximize();
 	}
+	
+	public static int getDriverInstanceCount() {
+        return driverInstanceCount;
+    }
 
 	@AfterClass(groups = {"Sanity", "Regression", "Master"})
 	public void tearDown() {
@@ -127,7 +143,7 @@ public class BaseTestClass {
 		return fname;
 	}
 
-	public String randomeStringlastName() {
+	public String randomeStringLastName() {
 		lname = faker.name().lastName();
 		System.out.println("Lastname: "+lname);
 		return lname;
